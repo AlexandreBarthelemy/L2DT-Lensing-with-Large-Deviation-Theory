@@ -6,12 +6,12 @@ Currently it computes:
 - The convergence cumulant generating function (CGF) and 1-point PDF for single source planes as well as source distributions.
 - New lensing kernels when using the BNT transform, a nulling technique to compartmentalise small-scales physics to the closest sources in a tomographic experiment.
 - The joint CGFs and joint PDFs between projected quantities for any projection kernel. This allows to compute joint statistics between different lensing sources and/or lensing and clustering quantities.
+- The aperture-mass CGF and 1-point PDF for single source planes as well as source distributions.
 
 The notebook restricts itself to the case of top-hat filters although the theory allows for more general filters. It also ignores simulation-specific corrections (like discrete lensing shells or resolution effects) that are usually necessary for fair comparison of the formalism to simulated data. It assumes one specific cosmology since the goal of this notebook is mostly pedagogical but which is straightforwardly changed in the notebook itself.
 
 Later revisions of this notebook will include :
 - Correction induced by the Kaiser-Squires reconstruction of the convergence field from a masked shear field.
-- The aperture-mass CGF and 1-point PDF for single source planes as well as source distributions.
 - Inclusion of observational systematics (baryonic feedback, intrinsic alignments, photometric redshift errors) and high-order lensing corrections (lens-lens couplings, geodesic deviation, reduced shear and magnification bias).
 - More general filtering scheme.
 
