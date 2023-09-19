@@ -23,5 +23,4 @@ This notebook is based on numerous papers but mostly arXiv:1909.02615 for the co
 You are free to use this notebook for your own science. If you do so please cite arXiv:2307.09468.
 
 # Instructions
-
-You can either download the notebook on its own or download the zip file that also contains pre-ran quantities used in the notebook to avoid some lengthy evaluations.
+The zip file contains the notebook and pre-ran quantities facilitating the usability of the notebook, especially the first time. You can also alternatively download the notebook separatly if you already know what you are doing.
